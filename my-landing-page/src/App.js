@@ -2,6 +2,7 @@
 import './App.css';
 import Home from './layout/mainLayout';
 
+//import Cards from "./components/Cards";
 
 function App() {
   return (

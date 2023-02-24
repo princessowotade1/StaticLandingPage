@@ -21,25 +21,26 @@ const BlurbContainer = styled.div`
 `
 const TopBlurb = styled.p`
     color: ${theme.colors.blue};
-    font-size: ${theme.fontSize.small};
+    font-size: ${theme.fontSize.medium};
     width: 190px;
-    margin-bottom: 0px;
-    padding-bottom: 0px;
-    font-weight: bold;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    font-weight: 500;
 `
 const HeaderBlurb = styled.p`
     color: ${theme.colors.offBlack};
-    font-size: ${theme.fontSize.xlarge};
-    font-weight: bold;
+    font-size: ${theme.fontSize.xxlarge};
+    font-weight: 500;
     width: 300px;
-    margin-bottom: 0px;
+    margin-bottom: 0;
 
 `
 const SubText = styled.p`
     color: ${theme.colors.offBlack};
     opacity: 0.6;
-    font-size: ${theme.fontSize.small};
+    font-size: ${theme.fontSize.medium};
     width: 400px;
+    font-weight: 300;
 `
 const Button = styled.p`
     background-color: ${theme.colors.green};
@@ -47,6 +48,7 @@ const Button = styled.p`
     border-radius: 52px;
     margin-top: 10px;
     padding: 20px;
+    font-weight: 700;
 `
 
 const Blurb = () => {

@@ -57,12 +57,13 @@ const NavLink = styled.div`
     position:relative;
     left:400px;
     cursor: pointer;
+    font-weight: 700;
 
 
 ${({isSignUp, isSignIn}) => {
     if(isSignUp) {
         return `
-            left: 500px;
+            left: 491px;
             padding: 0px;
             margin-top:0px;
             margin-bottom: 0px;

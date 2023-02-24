@@ -20,13 +20,14 @@ const LogoContainer = styled.div`
     align-items: center;
     position: absolute;
     top: 0.68%;
+    left: 10px;
     padding-top:10px;
     width: 50%;
     height: 60px;
 
 `
 const LogoImg = styled.img`
-    width: 90px;
+    width: 80px;
     height: 55px;
     top: 45px;
     left: 40px;
