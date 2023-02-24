@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import Logo from '/Users/princessowotade/LandingPage/my-landing-page/src/assets/images/LYM_1.png'
+import Logo from '../../assets/images/LYM_1.png'
 import NavBar from "./NavBar";
 
 

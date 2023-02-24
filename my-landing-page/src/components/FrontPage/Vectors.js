@@ -1,6 +1,5 @@
 import React from "react";
 import styled from "styled-components";
-import vector from '/Users/princessowotade/LandingPage/my-landing-page/src/assets/images/Vector.png';
 import vect from '../../assets/images/Vector.png';
 import vect2 from '../../assets/images/Vector-2.png';
 import vect3 from '../../assets/images/Vector-3.png';
@@ -40,11 +39,11 @@ const Vect3 = styled.img`
     width: 1000px;
     left: 695px;
     transform: rotate(28.8deg);
-    z-index = 0;
+    z-index: 0;
 `
 const Vect4 = styled.img`
     position: absolute;
-    top: 0px;
+    top: 0;
     height: 800px;
     width: 1000px;
     left: 345px;
