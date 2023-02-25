@@ -31,7 +31,7 @@ const HeaderBlurb = styled.p`
     color: ${theme.colors.offBlack};
     font-size: ${theme.fontSize.xxlarge};
     font-weight: 500;
-    width: 300px;
+    width: 350px;
     margin-bottom: 0;
 
 `
@@ -59,7 +59,7 @@ const Blurb = () => {
                 At Valstice We Are
             </TopBlurb>
             <HeaderBlurb>
-                Reimagining social media through the power of blockchain.
+                Reimagining social media through the power of the blockchain.
             </HeaderBlurb>
             <SubText>
                 We are creating social media 3.0 with influencers, celebrities and creators being able to launch

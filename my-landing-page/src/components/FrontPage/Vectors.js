@@ -11,10 +11,16 @@ import person2 from '../../assets/images/person2.png';
 
 
 const VectContainer = styled.div`
-    position: relative;
+    position: absolute;
     z-index: -4;
-    width: 80%;
-    height: 80%;
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+    top: 0;
+    left: 25px;
+    
+    
+    
 
 `
 const Vect1 = styled.img`
@@ -24,6 +30,7 @@ const Vect1 = styled.img`
     width: 1000px;
     left: 445px;
     z-index: -2;
+  
 `
 const Vect2 = styled.img`
     position: absolute;

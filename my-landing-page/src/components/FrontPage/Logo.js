@@ -24,6 +24,7 @@ const LogoContainer = styled.div`
     padding-top:10px;
     width: 50%;
     height: 60px;
+    overflow-x: hidden;
 
 `
 const LogoImg = styled.img`
